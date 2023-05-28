@@ -1,0 +1,102 @@
+*{
+
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+ 
+  background-color: white;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.statewise{
+
+  width:90%;
+  margin: auto;
+}
+.main-heading{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+h1{
+
+  font-weight: 100;
+
+}
+h1 span{
+  font-weight: 400;
+
+}
+th{
+  background-color: black;
+  color: white;
+  font-weight: 100;
+}
+tr:hover {background-color: #e4e6de;}
+
+
+.table-responsive{
+
+  overflow:auto;
+ max-height: 500px;
+ box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+}
+
+td,th{
+  position: relative;
+
+}
+
+th:nth-child(1)
+{
+  text-align: left;
+}
+th:nth-child(2) {
+  text-align: left;
+}
+
+.table td,
+.table th{
+
+  padding: .75rem;
+  vertical-align: top;
+  border: none;
+ }
+
+
+.table tr td:hover:nth-child(4)
+{
+  background-color: rgb(192, 54, 54);
+  color: aliceblue;
+  border: 0.5px solid black;
+}
+.table tr td:hover:nth-child(3)
+{
+  background-color: rgb(54, 192, 116);
+  color: aliceblue;
+  border: 0.5px solid black;
+}
+.table tr td:hover:nth-child(2)
+{
+  background-color: rgb(43, 132, 190);
+  color: aliceblue;
+  border: 0.5px solid black;
+}
